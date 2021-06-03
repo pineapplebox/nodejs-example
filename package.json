@@ -7,27 +7,8 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/assertible/nodejs-example.git"
-  },
-  "engines": {
-    "node": "4.0.0"
-  },
-  "keywords": [
-    "ci",
-    "continuous",
-    "delivery",
-    "continuous",
-    "testing",
-    "assertible"
-  ],
-  "author": "George G",
+  "author": "Ping Lu",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/assertible/nodejs-example/issues"
-  },
-  "homepage": "https://github.com/assertible/nodejs-example#readme",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.1",
