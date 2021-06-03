@@ -1,11 +1,11 @@
 {
-  "name": "assertible-nodejs-example",
+  "name": "Google Hangouts v2",
   "version": "1.0.0",
-  "description": "A continuous integration, delivery, and testing example for a Node.js app",
-  "main": "index.js",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha test/index.js",
-    "start": "node index.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -22,21 +22,18 @@
     "testing",
     "assertible"
   ],
-  "author": "Cody Reichert",
-  "contributors": [
-    "Christopher Reichert <creichert07@gmail.com>",
-    "Assertible <admin@assertible.com>"
-  ],
+  "author": "George G",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/assertible/nodejs-example/issues"
   },
   "homepage": "https://github.com/assertible/nodejs-example#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.1"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
-    "supertest": "^3.0.0"
+    "nodemon": "^2.0.2"
   }
 }
