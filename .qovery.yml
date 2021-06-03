@@ -1,0 +1,11 @@
+---
+application:
+  name: "hangout-v2"
+  project: "hangout-v2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-hangout-v2"
+  routes:
+  - application_name: "hangout-v2"
+    paths:
+    - "/*"
